@@ -1,9 +1,7 @@
 language: node_js
-node_js:
-  - "stable"
-# cache:
-#   directories:
-#   - node_modules #Cache node_modules for faster builds
+node_js: -"stable"
+notifications:
+  slack:
+    secure: FbXQwcigx5GxxQgKknIGZj1Dv6wLLneM4/WCrX2z3kRsIhKmvHk4IbvbBe82FlLUDa7P4fCfpGb7eBe8vDpM1bbVKXxDf1ex07Nf1w5twcNeokuCMBrqB3nQ9++ql460Qkcq8l+lyL2N2VU0dTlTkyWcZtsZbw85kk11jFeJzv1FAz8BUT0BUF/CSlbkLrRZqBkH19laxSH3mXNkQpSXt26bDgW3kbwUV5PyTLrWWuFgP3ZqPonXnfBSFEUC0IN6EW56EWmsXaNKtFzt9KKBI/1f3nTlJrEeMRtTrmQpzK8uNH91umzdMgBsT5jFdY1ZyfmbY2um0xH8cj4xtRv/HOuI4dm3IgJi5AsggS13uAIV+LGcSsnKTyC4m97xzhkulIbkPAO3wM4ZVWiLDk7bGhRuPM/R2R1IDqs2wAbtLBXhOJUpaxV6nULhEXy7O/tpK6nngvZnRQY0+yU9PEA79EMEhrYcI+LHAvKgq2qLzNBPudvdRxSauIN0cOhnU2SOUfLKc9yX8N/zWJq3xXwAR9fmZNZoNzJNsMATHQFe9FVUpmptb+zaKjRWDzKLsSwD6Ks9N0yx/AR93tzHp1fI7VoKq8uoQDm6twozdJ7UyzftxiS1QUbXn3JLFiTdgY4eoseRBfBzRNGE7mXquTrvZvePcV20Xng7M8d7R8wA/fI=
 script:
-  # - npm test #Runs Tests
-  - npm run build #Creats a production build
+- npm run build
