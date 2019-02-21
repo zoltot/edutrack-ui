@@ -1,13 +1,12 @@
-var OFF = 0, WARN = 1, ERROR = 2;
-
 module.exports = exports = {
     "env": {
-        "es6": true
+        "es6": true,
+        "browser": true
     },
 
     "extends": ["react-app", "airbnb"],
 
     "rules": {
-        "eol-last": 0,
+        "eol-last": "off",
     }
 };
