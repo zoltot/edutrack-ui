@@ -1,6 +1,8 @@
 import React from 'react';
 import logo from './logo.svg';
+import {LoginModal} from "./components/loginmodal";
 import './App.css';
+import './assets/scss/main.css'
 
 const App = () => (
   <div className="App">
@@ -20,6 +22,8 @@ const App = () => (
         Learn React
       </a>
     </header>
+
+    <LoginModal show={true}/>
   </div>
 );
 export default App;
