@@ -15,24 +15,24 @@ class  SignupForm extends Component {
     </div>
 
     <div className={classes.MarginBellow}>
-    <label for="text"><b>School Name</b></label>
+    <label for="school"><b>School Name</b></label>
     <input  className={classes.Fulline} type="text" placeholder="School Name" name="school" required/>
     </div>
 
     <div className={`${classes.Signup__Form_Flex} ${classes.MarginBellow}`}>
 
     <div className={classes.Halfline} >
-    <label for="text"><b>Address</b></label>
+    <label for="address"><b>Address</b></label>
     <input type="text" placeholder="Address" name="address" required  className={classes.Fill}/>
     </div>
     
     <div className={classes.Quarterline} >     
-    <label for="text"><b>Postal Code</b></label>
+    <label for="postal"><b>Postal Code</b></label>
     <input type="text" placeholder="Postal Code" name="postal" required />
     </div>
 
     <div className={classes.Quarterline} > 
-    <label for="text"><b>Students #</b></label>
+    <label for="students"><b>Students #</b></label>
     <input type="text" placeholder="Students" name="students" required />
     </div>    
 
@@ -46,12 +46,12 @@ class  SignupForm extends Component {
     <div className={`${classes.Signup__Form_Flex} ${classes.MarginBellow}`}>
         <div className={classes.Halfline}>
 
-        <label for="text"><b>First Name</b></label>
+        <label for="firstname"><b>First Name</b></label>
         <input  type="text" placeholder="First Name" name="firstname" required/>
         </div>    
 
         <div className={classes.Halfline}>
-        <label for="text"><b>Last Name</b></label>
+        <label for="lastname"><b>Last Name</b></label>
         <input  type="text" placeholder="Last Name" name="lastname" required/>
         </div>    
     </div>
@@ -62,7 +62,7 @@ class  SignupForm extends Component {
     </div>
 
     <div className={classes.MarginBellow}>
-    <label for="psw"><b>Password</b></label>
+    <label for="password"><b>Password</b></label>
     <input  className={classes.Fulline} type="password" placeholder="Enter Password" name="password" required/>
     </div>
 
