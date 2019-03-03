@@ -3,7 +3,7 @@
   background-color: #BFCCE7;
     border-color: #707070;
     border-width: 5px;
-    width: 60%;
+    width: 100%;
     min-width: 630px;
     color: #3C3B3B;
     box-sizing: border-box;
@@ -29,7 +29,7 @@
 
 
 
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 630px) {
     .Footer__Container{
         font-size: 1.5rem;
         display: flex;

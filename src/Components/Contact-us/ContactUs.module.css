@@ -1,0 +1,169 @@
+p{
+    font-size: 1.8rem;
+    margin: .5rem 0 0 0;
+    width: 90%
+}
+h1{
+    font-size: 3rem;
+    margin: 3rem 0 0 0;
+
+}
+
+input{
+    display: block;
+    width: 100%;
+    margin: 1.5rem 0 0 0;
+    background-color: #FFEFC9;
+    border: none;
+    color: #000;
+    height: 1.5rem;
+}
+ button{
+    display: block;
+    width: 100%;
+    margin: 1.5rem 0 0 0;
+    background-color: #6F61B9;
+    height: 2.5rem;
+    color: #fff;
+    font-size: 2rem;
+
+}
+
+::placeholder {
+    color: #000;
+  }
+
+
+.Contact_us_Container{
+    background-color: #FFF7F7;
+    width: 80%;
+    height: 700px;
+    position: relative;
+    z-index: -2;
+}
+
+.Top_Section{
+    position: absolute;
+    top: 20%;
+    display: flex;
+    flex-direction: row;
+    height: 65%;
+    width: 100%;
+    justify-content: space-around;
+}
+
+.Footer_Section{
+    position: absolute;
+    bottom: 0%;
+    width: 100%;
+    }
+
+
+.Top_Interact_Section{
+    width: 40%;
+}
+
+.Top_Image_Section{
+    width: 40%;
+    opacity: 90%;
+    background-color: rgba(255, 255, 255, 50%);
+    position: relative;
+}
+
+.square{
+    width: 5.5rem;
+    height: 5.5rem;
+    background-color: #fff;
+    position: absolute;
+    top: 10%;
+    right: 15%;
+ }
+
+  .rectangle {
+    width: 9rem;
+    height: 5rem;
+    background-color: #fff;
+    position: absolute;
+    top: 50%;
+    left: 10%;
+  }
+
+  .circle {
+    width: 5.5rem;
+    height: 5.5rem;
+    border-radius: 50%;
+    background-color: #fff;
+    position: absolute;
+    position: absolute;
+    bottom: 10%;
+    right: 7%;
+}
+
+
+.square2{
+    width: 5.5rem;
+    height: 5.5rem;
+    position: absolute;
+    top: 7%;
+    right: 20%;
+    border: .2rem solid #707070;
+ }
+
+  .rectangle2 {
+    width: 9rem;
+    height: 5rem;
+    border: .2rem solid #707070;
+    position: absolute;
+    top: 47%;
+    left: 5%;
+  }
+
+  .circle2 {
+    width: 5.5rem;
+    height: 5.5rem;
+    border: .2rem solid #707070;
+    border-radius: 50%;
+    position: absolute;
+    bottom: 12%;
+    right: 12%;
+}
+
+
+
+
+.Image{
+    position: absolute;
+    top: 0;
+    z-index: -1;
+}
+
+@media only screen and (max-width: 630px) {
+        
+    .Top_Interact_Section{
+        width: 60%;
+    }
+    
+    .Top_Image_Section{
+        display: none;
+        visibility: hidden;
+    }
+    .Footer_Section{
+        position: absolute;
+        bottom: 0%;
+        width: 60%;
+        font: 1rem;
+        }
+
+        .Contact_us_Container{
+            width: 100%;
+        }
+        
+    
+    
+    
+    }
+
+
+
+
+
